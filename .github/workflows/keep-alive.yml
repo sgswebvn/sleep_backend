@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping backend
-        run: curl https://YOUR-BACKEND.onrender.com/health
+        run: curl https://interior-affiliate-backend.onrender.com/api/health
